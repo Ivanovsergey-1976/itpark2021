@@ -31,9 +31,9 @@ public class Lesson2 {
         System.out.print(m1);
         System.out.println(" человек");
 
-        plus(5,10);
-        minus(5,10);
-        umnogenie(5,10);
+        plus(5, 10);
+        minus(5, 10);
+        umnogenie(5, 10);
     }
 
     public static void plus(int arg1, int arg2) {
@@ -41,10 +41,12 @@ public class Lesson2 {
         System.out.println(result);
 
     }
+
     public static void minus(int arg1, int arg2) {
         int result = arg1 - arg2;
         System.out.println(result);
     }
+
     public static void umnogenie(int arg1, int arg2) {
         int result = arg1 * arg2;
         System.out.print(result);
